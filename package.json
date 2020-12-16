@@ -22,7 +22,7 @@
     "url": "https://github.com/kenrick95/c4/issues"
   },
   "engines": {
-    "node": "12.x"
+    "node": "14.15.2"
   },
   "homepage": "https://github.com/kenrick95/c4",
   "license": "MIT",
