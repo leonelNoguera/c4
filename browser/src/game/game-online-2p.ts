@@ -22,12 +22,13 @@ const statusboxBodyConnection = document.querySelector(
 )
 const statusboxBodyPlayer = document.querySelector('.statusbox-body-player')
 
-const C4_SERVER_ENDPOINT =
+/*const C4_SERVER_ENDPOINT =
   process.env.NODE_ENV === 'production'
     ? process.env.C4_SERVER_ENDPOINT
       ? process.env.C4_SERVER_ENDPOINT
       : `wss://c4-server.herokuapp.com/`
-    : `ws://${location.hostname}:8080`
+    : `ws://${location.hostname}:8080`*/
+const C4_SERVER_ENDPOINT = `ws://${location.hostname}:8081`;
 
 export class GameOnline2p extends GameBase {
   connectionPlayerId: null | string = null
