@@ -20,7 +20,7 @@ import {
   parseMessage,
 } from '@kenrick95/c4/src/game/game-online/shared'
 
-const port = parseInt(process.env.PORT || '') || 8081
+const port = parseInt(process.env.PORT || '') || 3000
 const wss = new WebSocket.Server({ port: port })
 console.log(`[server] Started listening on ws://localhost:${port}`)
 
